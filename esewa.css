@@ -1,0 +1,131 @@
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4ae4a488;
+}
+
+
+.main-content {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: rgba(89, 228, 238, 0.527);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(218, 8, 8, 0.555);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  background-color: #78ace4;
+
+}
+
+.product-image {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 1rem;
+  margin: 0;
+  color: #000000;
+}
+
+.product-description {
+  color: #000000;
+  font-size: 0.75rem;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #4319db;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product-button {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #0056b3;
+}
+
+.buy-now {
+  background-color: #40f330;
+}
+
+.buy-now:hover {
+  background-color: #007a06;
+  color: white;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.payment-options {
+  background-color: rgba(135, 241, 135, 0.993);
+  display: flex;
+  height:100vh;
+  width: 100vw;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+
+
+.payment-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+margin-left: 45%;
+}
+h2{
+text-align: center;
+}
+.payment-icon:hover{
+ border: 3px solid rgba(253, 253, 253, 0.562);
+ 
+}
+
+
